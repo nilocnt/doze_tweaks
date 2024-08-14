@@ -1,0 +1,25 @@
+#!bin/bash
+
+# Reduce Texture @Bias_khaliq
+ro.texture_atlas_cache_override=0.25
+ro.texture_atlas_cache_entry_override=0.034
+ro.texture_atlas_map_pool_override=0.15
+ro.hwui.disable_asset_atlas=true
+ro.hwui.disable_scissor_optimization=true
+ro.sf.disable_app_opt_render_thread=true
+ro.sf.disable_app_render_wait_hint_commit=true
+ro.sf.disable_app_render_wait_hint_expire=true
+ro.sf.disable_app_render_wait_hint_max=true
+ro.hwui.renderer.progressive=false
+ro.hwui.renderer.conservative=true
+ro.hwui.renderer.disable_opaque_scissor_optimization=true
+ro.hwui.renderer.disable_dither=true
+ro.hwui.renderer.disable_apply_display_density_on_resize=true
+debug.hwui.use_gpu_pixel_buffers=true
+debug.hwui.render_dirty_regions=false
+debug.hwui.show_dirty_regions=false
+
+# Memory Ram @nilocnt
+persist.sys.memfreeze.enable=true
+
+

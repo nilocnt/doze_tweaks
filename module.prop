@@ -1,0 +1,6 @@
+id=doze-tweaks
+name=doze tweaks
+version=1
+versionCode=1
+author=nilocnt GitHub
+description=Patches Google Play services app and certain processes/services to be able to use battery optimizations and others tweaks.
